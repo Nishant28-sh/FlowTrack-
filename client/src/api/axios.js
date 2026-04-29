@@ -1,6 +1,9 @@
 import axios from 'axios';
 
-const apiBaseUrl = import.meta.env.VITE_API_URL || '/api';
+const defaultProdApiUrl = 'https://flowtrack-akpt.onrender.com/api';
+const apiBaseUrl =
+  import.meta.env.VITE_API_URL ||
+  (import.meta.env.PROD ? defaultProdApiUrl : '/api');
 
 const api = axios.create({
   baseURL: apiBaseUrl,
