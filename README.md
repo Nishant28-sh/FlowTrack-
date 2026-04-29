@@ -451,7 +451,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Nishant Kumar**
 - GitHub: [@Nishant28-sh](https://github.com/Nishant28-sh)
-- Email: nishant@flowtrack.com
+- Email: nishant.dev.tech@gmail.com
 
 ---
 
