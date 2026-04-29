@@ -33,6 +33,11 @@ app.use('/api/projects', projectRoutes);
 app.use('/api/tasks', taskRoutes);
 app.use('/api/dashboard', dashboardRoutes);
 
+// Root route for quick deployment check
+app.get('/', (req, res) => {
+  res.json({ status: 'OK', message: 'FlowTrack API is running' });
+});
+
 // Health check
 app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', message: 'FlowTrack API is running' });
